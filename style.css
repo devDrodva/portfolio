@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  color: #808080;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  color: #808080;
+  font-weight: 500;
+}
+
+.soft-skills h2 {
+  padding-bottom: 10px;
+  color: #808080;
+  font-weight: 500;
+}
+
+.soft-skills p {
+  font-size: 18px;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #b4f7e6, #84d7d8, #57a8ba, #4783a2, #6288b3);
+}
+
+.container {
+  width: 80%;
+  min-height: 80vh;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+}
+
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color:#f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.developer-photo {
+  border-radius: 5px;
+}
+
+.developer-description {
+  font-size: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.social-networks img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5rem;
+  flex: 3;
+}
+
+.portfolio hr {
+  height: 2px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #c8c8c8;
+  opacity: 50%;
+}
+
+.startup-card {
+  margin-bottom: 25px;
+}
+
+.startup-card, .ecommerce-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.startup-image, .ecommerce-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+.application-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+.application-info .app-description {
+  padding-right: 5px;
+}
+
+.link-application {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+}
+
+.link-application .live-demo {
+  padding: 10px;
+  font-weight: 600;
+  color: #426696;
+  border: 2px solid #808080;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.link-application .live-demo:hover {
+  color: #fff;
+  background-color: #426696;
+}
+
+.technologies img {
+  width: 40px;
+  height: 40px;
+}
+
+/*MEDIAQUERY */
+
+@media (max-width: 1280px){
+
+  .developer-description, .app-description {
+   display: none;
+ }
+
+ .container {
+   display: flex;
+   width: 70%;
+ }
+ 
+ .profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color:#f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+ .social-networks {
+   padding-top: 25px;
+ }
+
+ .portfolio {
+   margin: 0;
+   padding: 20px;
+   flex: 1;
+ }
+
+.portfolio hr {
+  height: 2px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #c8c8c8;
+  opacity: 50%;
+}
+
+.startup-card {
+  margin-bottom: 25px;
+}
+
+.startup-card, .ecommerce-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.startup-image, .ecommerce-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.application-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 250px;
+}
+
+.link-application {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+}
+
+.live-demo {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.technologies img {
+  width: 20px;
+  height: 20px;
+}
+}
+
+@media (max-width: 920px){
+   .app-description, .developer-description, .soft-skills {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .social-networks {
+    padding-top: 25px;
+  }
+
+  .portfolio {
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .portfolio-title {
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  .portfolio hr {
+    margin-bottom: 20px;
+  }
+
+  .startup-card, .ecommerce-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .startup-image, .ecommerce-image {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+
+  .application-info {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .link-application {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+  }
+
+  .technologies {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 30px;
+  }
+
+  .technologies img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .live-demo {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
