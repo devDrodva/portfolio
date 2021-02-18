@@ -76,6 +76,7 @@ main {
 }
 
 .social-networks img {
+  margin-top: 20px;
   width: 25px;
   height: 25px;
   cursor: pointer;
