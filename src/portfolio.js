@@ -17,8 +17,7 @@ const about = {
 const projects = [
   {
     name: 'Ecommerce',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: 'For make this small proyect, I used redux and context',
     stack: ['React', 'JavaScript', 'MongoDB'],
     sourceCode: 'https://github.com/devDrodva/ecommerce',
   },
