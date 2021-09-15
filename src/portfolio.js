@@ -7,7 +7,7 @@ const about = {
   name: 'David Rodriguez',
   role: 'Front-end Developer',
   description:
-    'I have developed my communication skills from working directly with other persons, which means I am well prepared to work on high-profile, cross-deparments. I have experience to start contributing fro day one and I am truly excited about the prospect of getting started.',
+    'I have developed my communication skills from working directly with other persons, which means I am well prepared to work on high-profile, cross-deparments. I have experience to start contributing for day one and I am truly excited about the prospect of getting started.',
   social: {
     linkedin: 'https://www.linkedin.com/in/drodva/',
     github: 'https://github.com/devDrodva',
